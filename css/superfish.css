@@ -1,0 +1,19 @@
+nav{ position:relative; margin: 0px -2px 0 0; padding: 11px 0 0; float:right;}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu ul li {width:100%}
+.sf-menu li {float:left;position:relative}
+
+.sf-menu>li>a{display:block;position:relative; font-size: 21px; line-height: 38px; text-transform:uppercase; color:#999a9b;}
+.sf-menu>li>a:hover,.sf-menu li a.current{ color:#3c3d3f;}
+
+.sf-menu>li{margin-left:29px;}
+.sf-menu a{}
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu li ul,.sf-menu li.sfHover ul{left:0;top:40px;width: 160px;padding:15px 0 0 0; z-index:99; background-color:#999a9b;border-radius:15px;}
+.sf-menu li ul li{padding: 0 0 0 25px;}
+.sf-menu li ul li a{font-size: 18px; text-transform:uppercase; line-height: 19px; color: #fff;}
+.sf-menu li li a:hover, .sf-menu li.sfHover li.sfHover>a{ color:#000;}
+
+/*================================>> 3 Level <<========================================*/
+.sf-menu li li ul{left:161px !important;top:-13px !important;}

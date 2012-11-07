@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>39295 template preview</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/tms.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.jscrollpane.css">
+    <!--script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>-->
+    <script type="text/javascript" src="js/tms-0.4.1.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+   <script type="text/javascript" src="js/forms.js"></script>
+   <script type="text/javascript" src="js/jquery.scrollorama.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+   <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.scrolldeck.js"></script>
+   <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+   <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+   <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script>
+			$(window).load(function(){
+				$('.slider')._TMS({
+					prevBu:false,
+					nextBu:false,
+					playBu:false,
+					duration:7000,
+					easing:'easeOutQuad',
+					preset:'zoomer',
+					pagination:true,//'.pagination',true,'<ul></ul>'
+					pagNums:false,
+					slideshow:7000,
+					numStatus:false,
+					banners:false,// fromLeft, fromRight, fromTop, fromBottom
+					waitBannerAnimation:false,
+					progressBar:false
+				})
+            $(".sf-menu").find("a").click(function(){
+               $(".sf-menu .current").removeClass("current");
+               $(this).addClass("current");
+             });
+            $("#modal").leanModal();
+            $('.scroll-pane').jScrollPane();
+            $('#privacy').css({display:'none'})
+			})
+    </script>
+	<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+    <!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+<!--==============================header=================================-->
+<div class="header_box">
+	<div class="main">
+		<header>
+	    <h1><a class="logos" href="#content">FDI Tanzania</a></h1>
+	    <nav>
+				<ul class="sf-menu">
+						<li><a class="current" href="#content">Introduction</a></li>
+						<li><a href="#page1">Inforgraphic</a></li>
+						<li><a href="#page2">strategy</a>
+							<ul>
+								<li><a href="#page2">Start</a></li>
+								<li><a href="#page2">Analyze</a></li>
+								<li><a href="#page2">Consensus</a></li>
+								<li><a href="#page2">Design</a></li>
+							</ul>
+						</li>
+						<li><a href="#page3">works</a></li>
+						<li><a href="#page4">contacts</a></li>
+					</ul> 
+        </nav>
+			<div class="clear"></div>
+    </header>
+	</div>
+</div>
+<div class="main">
+<!--==============================content================================-->
+    <section id="content">
+    	<div class="container_12">
+				<ul class="content">
+               <li id="top" class="bottom_bord">
+                  <a href="#page1" class="arrow"></a>
+                  <article class="grid_12">
+							<div>
+								<div class="top">
+									<a href="#" class="icon twitter"></a>
+									<a href="#" class="icon facebook"></a>
+									<a href="#" class="icon flickr"></a>
+									
+									<div class="row1">crafting</div>
+									<div class="row2"><img src="images/1page_img1.png" alt="" /></div>
+									<div class="row3">for personal, business, blog </div>
+									<div class="row4">or any website </div>
+								</div>
+							</div>
+                     <div class="clear"></div>
+						</article>
+                  <div class="clear"></div>
+               </li>
+					<li id="page1" class="bottom_bord">
+                  <a href="#page2" class="arrow"></a>
+						<div class="offers">
+							<article class="grid_4">
+								<div class="title">design</div>
+								<div class="text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incidi- dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc.</div>
+								<a href="#" class="button">more</a>
+							</article>
+							<article class="grid_4">
+								<div class="title rose">Usability</div>
+								<div class="text">Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc.</div>
+								<a href="#" class="button">more</a>
+							</article>
+							<article class="grid_4">
+								<div class="title blue">Development</div>
+								<div class="text">ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamc set dolor magna lorem.</div>
+								<a href="#" class="button">more</a>
+							</article>
+                     <div class="clear"></div>
+						</div>
+					</li>
+					
+               <li id="page2" class="bottom_bord">
+						<a href="#page3" class="arrow"></a>
+						<div class="wrapper">
+							<article class="grid_12">
+								<div class="big_title">Strategy</div>
+								<div class="step_box">
+									<div class="rad_100 s_circle1">
+										<span class="s_circle2 rad_100">step 1</span>
+										start
+									</div>
+									<div class="rad_100 b_circle box1 color1">
+										<span class="s_circle3 pad1 rad_100">step 2</span>
+										<div class="s2_title">Analyze</div>
+										Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+									</div>
+									<div class="box2 rad_100 b_circle">
+										<span class="s_circle2 rad_100 pad1">step 3</span>
+										<div class="title">consensus</div>
+										Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+									</div>
+									<div class="box3 rad_100 b_circle">
+										<div class="title">design</div>
+										<span class="s_circle3 rad_100 pad1">step 4</span>
+										Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+									</div>
+									<div class="box4 rad_100 b_circle">
+										<span class="s_circle2 rad_100 pad1">step 5</span>
+										<div class="s5_title">code</div>
+										Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+									</div>
+									<div class="box5 rad_100 b_circle">
+										<div class="title">content</div>
+										<span class="s_circle3 rad_100 pad1">step 6</span>
+										Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+									</div>
+									<div class="box6 rad_100 b_circle">
+										<span class="s_circle2 rad_100 pad1">step 7</span>
+										<div class="title">test</div>
+										Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+									</div>
+									<div class="box7 rad_100 b_circle">
+										<span class="s_circle2 rad_100 pad1">step 8</span>
+										<div class="title">deliver</div>
+										Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+									</div>
+								</div>
+							</article>
+						</div>
+					</li>
+					
+               <li id="page3" class="bottom_bord">
+						<a href="#page4" class="arrow"></a>
+						<div class="wrapper">
+							<article class="grid_12">
+								<div class="title">works</div>
+								<!-- slider -->
+								<div id="slider">
+									<div class="slider">
+										<ul class="items">
+											<li><img src="images/slide1.jpg" alt="" /></li>
+											<li><img src="images/slide2.jpg" alt="" /></li>
+											<li><img src="images/slide3.jpg" alt="" /></li>
+											<li><img src="images/slide4.jpg" alt="" /></li>
+											<li><img src="images/slide5.jpg" alt="" /></li>
+										</ul>
+									</div>
+								</div>
+								<!-- slider-end -->
+							</article>
+						</div>
+					</li>
+					
+               <li id="page4" class="bottom_bord">
+						<div class="wrapper">
+							<article class="grid_12">
+								<div class="title">hire us</div>
+								<form id="contact-form">
+									<fieldset>
+										<label class="email">
+											<input type="text" value="Email">
+												<span class="error">*This is not a valid email address.</span><span class="empty">*This field is required.</span>
+										</label>
+										<label class="name">
+											<input type="text" value="Name">
+												<span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span>
+										</label>
+										<label class="message">
+											<textarea>Message</textarea>
+												<span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
+										</label>
+										<div class="success">Contact form submitted!<br>
+												<strong>We will be in touch soon.</strong>
+										</div>
+										<div class="buttons2">
+												<a data-type="submit" class="button">send</a>
+										</div>
+									</fieldset>
+								</form>
+							</article>
+						</div>
+					</li>
+				</ul> 
+			</div>
+    </section>
+<!--==============================footer=================================-->
+    <footer>
+			© 2012 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#privacy" id="modal">Privacy Policy</a><br>
+        <!-- {%FOOTER_LINK} -->
+    </footer>
+</div>
+<div id="privacy">
+   <div class="scroll-pane">
+      <div class="title">privacy policy</div>
+      <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor.</p>
+      <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc Lorem ipsum dolor sit amet conse ctetur adipi- sicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+      <a href="#" class="demo">privacy@demolink.org</a>  
+   </div>
+   <!-- Coded by Grizli -->
+</div>
+<script>
+$(document).ready(function() {
+    var deck = new $.scrolldeck({
+       buttons: '.sf-menu li a, .arrow, .logo',
+       easing: 'easeInOutExpo'
+    });
+});
+</script>
+
+</body>
+</html>

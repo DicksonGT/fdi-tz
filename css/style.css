@@ -1,0 +1,189 @@
+@import "../css/reset.css";@import "../css/grid_12.css";@import "../css/superfish.css";@import url(http://fonts.googleapis.com/css?family=Anton);
+article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video{display:block}mark,rp,rt,ruby,summary,time{display:inline}
+/* Global properties ======================================================== */
+html {width:100%}
+
+body {font-size:19px; line-height:33px; color:#3c3d3f; min-width:960px; background:url(../images/body_bg.jpg) 50% 0 no-repeat fixed #ededed;}
+.main {width:960px;padding:0;margin:0 auto;}
+
+/*********************************fonts*************************************/
+.reg {text-transform:uppercase}
+.f_left {float:left}
+.f_right {float:right}
+.align_right {text-align:right}
+.align_center {text-align:center}
+
+.italic{font-style:italic}
+.letter {letter-spacing:-1px}
+
+/*********************************CLASSES**********************************/
+.m_bottom_zero{ margin-bottom:0 !important;}
+.m_left_zero{ margin-left:0 !important;}
+.p_bottom_zero{ padding-bottom:0 !important;}
+.p_left_zero{ padding-left:0 !important;}
+
+.clear {clear:both;width:100%;line-height:0;font-size:0;}
+.wrapper {width:100%;overflow:hidden}
+.extra_wrapper{ overflow:hidden;}
+.container{width:100%}
+.extra_last, .last{ margin-bottom:0 !important; padding-bottom:0 !important;}
+.extra_last{ border:none !important; background:none !important;}
+.bg_none{ background:none !important;}
+
+/*==================================== Links ======================================================== */
+a {color:#3c3d3f;outline:none; text-decoration:none; cursor:pointer;}
+a:hover{ color:#f16d50; text-decoration:none;}
+
+.button{ display:inline-block; padding:6px 14px 9px; margin: 33px 0 0 0; font-size: 24px; color:#fff; text-transform:uppercase; border:1px solid #60899e; background: url(../images/button.jpg) repeat;}
+.button:hover{ background: url(../images/button_h.png) repeat; color:#fff; border-color:#be8071;}
+
+
+/*********************************Displays*************************************/
+.block{ display:block;}
+.inline-block{ display:inline-block;}
+
+/*********************************header*************************************/
+.header_box{ width:100%; position:fixed; min-width:980px; height:240px; background: url(../images/header_box.png) 50% 0 no-repeat; z-index:10;}
+header {padding: 41px 10px 9px; background: url(../images/header_bg.png) center bottom no-repeat;}
+header h1{width:214px; float:left;}
+header h1 a {display:block;width:214px;height:94px;background:url(../images/logo.png) 0 0 no-repeat; text-decoration:none; text-indent:-9999px;}
+
+/*********************************content*************************************/
+#content {padding:217px 0px 50px 0px; position:relative; z-index:1;}
+/*===============================>> Paragraphs <<=============================*/
+p {margin-bottom:33px}
+
+/*================================>> GOOGLE FONTS  <<========================================*/
+.offers .title, #contact-form textarea, #contact-form input, body{font-family: 'Anton', sans-serif;}
+
+/*********************************page_1*************************************/
+.ext_list>li, .ext_box{ overflow:hidden;}
+.ext_list>li>figure, .ext_box>figure{ float:left;}
+.ext_list>li>div, .ext_box>div{ float:right;}
+
+.content>li{position:relative;padding-bottom:114px;padding-top:217px;}
+
+#top{padding-top:0 !important;}
+#top .top{ text-align:center; text-transform:uppercase; position:relative;}
+#top .top .row1{ font-size:78px; line-height:94px; padding-right:8px; margin-bottom:6px; position:relative;z-index:1;}
+#top .top .row2{padding-left:1px;padding-bottom:7px;}
+#top .top .row3{font-size: 48px; line-height: 58px; color: #939495; margin-bottom:2px;}
+#top .top .row4{ color:#3c3d3f;font-size: 38px; line-height: 46px; color: #3c3d3f;}
+
+a.arrow{display:block;position:absolute;width:195px;height:82px;bottom:-82px;left:383px;background: url(../images/arrow.png) no-repeat;z-index:999;}
+a.arrow:hover{background-position:0 bottom;}
+
+.icon{display:block;position:absolute;width:49px;height:58px; z-index: 999;cursor:pointer;}
+.twitter{ background: url(../images/twitter.png) no-repeat; left:7px; top:50px;}
+.facebook{ background: url(../images/facebook.png) no-repeat;right:38px;top:28px;}
+.flickr{ background: url(../images/flickr.png) no-repeat; bottom:-51px; right:187px;}
+.icon:hover{ background-position:0 bottom;}
+
+.offers{ font-size:21px; color:#a5a5a6;text-align:center; text-transform:uppercase; position:relative;}
+.offers .title{margin-bottom:33px;font-size: 51px; line-height: 61px; color: #3c3d3f;}
+.offers .text{padding: 0 17px; min-height:264px;}
+.offers .button{ margin-top:0px;}
+
+.blue{color:#5f96b3 !important;}
+.rose{color:#e7907a !important;}
+
+.bottom_bord{ background: url(../images/bot_stripe.png) center bottom no-repeat;}
+/*********************************page_2*************************************/
+#page2{text-align:center;text-align:center; padding-bottom:118px;}
+#page2 .big_title{font-size: 128px;margin-bottom:-15px; line-height: 153px; color: #e7907a;text-transform:uppercase;}
+#page2 .title{padding: 0 0 0 8px;}
+#page2 .step_box{ position:relative; background: url(../images/strategy_stripes.png) center 149px no-repeat; text-transform:uppercase;padding: 91px 0 0 0; min-height:1770px;}
+
+.rad_100{border-radius:100%;position:absolute;}
+
+.s_circle1{width:189px;height:122px; padding-top:67px;font-size: 48px; line-height: 57px; color: #3c3d3f;background-color:#e0e0e0;right:191px;}
+.s_circle1 .s_circle2{ color:#fff;}
+.s_circle2{width:83px;height:71px; padding-top:12px;font-size: 22px; top:-33px; left:16%; background-color:#94c5df;}
+.s_circle3{width:83px;font-size: 22px; top:-24px; right:21%; background-color:#94c5df;}
+.pad1{padding-top:24px;height:59px;}
+
+.b_circle{width:301px;height:244px;padding:87px 40px 50px;}
+
+.s2_title{font-size: 68px; line-height: 82px; color: #3c3d3f;margin: -18px 0 16px 0;}
+
+.box1{background-color:#94c5df; top:179px;left:-1px;}
+.box1 .title{padding: 0 15px 0 0; margin-bottom:26px;}
+.box1 .s_circle3{background-color:#FFF; color:#d4d4d5;}
+
+.color1{ color:#fff;}
+
+.box2{ background: url(../images/pink_box.jpg) repeat;right:0px;top:349px; color:#fff;}
+.box2 .s_circle2{top:0px;left:15%; color:#fff;background-color:#e7907a;}
+.box7 .title, .box2 .title{font-size: 48px; line-height: 58px; color: #3c3d3f; padding-top:3px !important; margin-bottom:18px;}
+
+.box3{top:614px; background-color:#e0e0e0; left:80px; color:#acacad;}
+.box6  .title, .box3 .title{font-size: 78px; line-height: 94px; color: #3c3d3f; margin-top:-12px; margin-bottom:-3px !important;}
+.box3 .s_circle3{ background: url(../images/s_circle.jpg) repeat; top:-8px; right:58px;color:#fff;}
+
+.box4{top:784px; background-color:#FFF;right:0;color:#acacad;}
+.box4 .title{ margin-bottom:16px;}
+.box4 .s_circle2{ color:#fff;left:16px;top:13px;}
+
+.box5{top:1058px; background: url(../images/blue_box.jpg) 50% 0 repeat;color:#fff;}
+.box5 .s_circle3{background-color:#FFF; color:#d4d4d5; right:85px;}
+.box5 .title{font-size: 58px; line-height: 70px; color: #3c3d3f; margin: -8px 0 17px 0;}
+.s5_title{font-size: 78px; line-height: 90px; color: #3c3d3f;margin: -15px 0 4px 0;}
+
+.box6{top:1213px; right:79px; background-color:#f7b8a8; color:#fff;}
+.box6 .s_circle2{ background: url(../images/s_circle.jpg) 50% 0 repeat; color:#fff; top:0; left:46px;}
+
+.box7{top:1480px; left:160px; background-color:#3c3d3f; color:#acacad;}
+.box7 .title{color:#fff;}
+.box7 .s_circle2{background-color:#FFF; left:159px; top:-40px; color:#d4d4d5;}
+/*********************************page_3*************************************/
+#page3{text-transform:uppercase;}
+#page3 .title{font-size: 148px; line-height: 178px; color: #3c3d3f; text-align:center; }
+
+/*********************************page_4*************************************/
+#page4{text-transform:uppercase; text-align:center;}
+#page4 .title{font-size: 98px; line-height: 118px; color: #6299b5; }
+/*********************************page_5*************************************/
+
+
+/* Contact form */
+#contact-form {padding:40px 0 0 0;}
+#contact-form .success {width:246px; margin-bottom:20px; padding:10px; position:absolute;}
+#contact-form textarea, #contact-form input {margin:0 !important;font-size:21px; border:1px solid #c5c5c6; color:#acacad; text-transform:uppercase; padding:15px 21px 17px;outline:none; position:relative;background: url(../images/textfield.png) repeat;width:896px;box-shadow: inset 0px 0px 10px #e9e9e9;}
+#contact-form textarea {overflow:auto; height:321px;resize:vertical; float:left; margin: 0 0 0 0;}	
+#contact-form label {display:block; min-height:96px; overflow:hidden;}
+#contact-form label.message { display:block; padding-bottom:0; }
+#contact-form .button {margin-left:8px;}	
+#contact-form .error, #contact-form .empty, #contact-form .success {display:none;}
+#contact-form .error, #contact-form .empty {text-align:left; color:red; font-size:15px; clear:both;}
+#contact-form .buttons2 {overflow:hidden;text-align:center; position:relative; clear:both; padding-top:38px;}
+#contact-form .buttons2 a {
+	cursor:pointer;
+	margin-top:0;
+	text-align:center;
+   padding: 18px 28px 24px;
+   font-size: 43px; line-height: 42px;
+}
+#contact-form span{ display:block; margin: 0px 0 0 5px;}
+
+/****************************footer************************/
+footer {padding:0px 0 80px;font-size:21px; text-transform:uppercase; text-align:center;}
+footer, footer a{ color:#98999a;}
+#privacy{width:660px; background:url(../images/body_bg.jpg) 50% 0 no-repeat fixed #ededed; padding: 50px 30px;font-size: 21px; line-height: 33px; color: #a6a6a7; text-transform:uppercase;top:10% !important;}
+#privacy .title{margin-bottom:18px;font-size: 51px; line-height: 61px; color: #3c3d3f; text-transform:uppercase;}
+.demo{color:#e7907a;}
+.demo:hover{ color: #a6a6a7;}
+/*================================>> MODAL WINDOW <<========================================*/
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    padding-bottom:10%;
+    display: none;
+}
+
+.scroll-pane{height:442px; overflow:auto;}
+
